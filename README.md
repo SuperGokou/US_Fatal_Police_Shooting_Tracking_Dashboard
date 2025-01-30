@@ -1,34 +1,47 @@
-This project visualizes police shooting data in the United States, offering a comprehensive view of these incidents' demographic breakdown, regional distribution, and temporal trends. It leverages D3.js for dynamic and interactive visualizations.
+# Variation in American Police’s Use of Force
 
-Getting Started
-Prerequisites: Ensure you have the latest version of a modern web browser installed (e.g., Chrome, Firefox).
-Installation: Clone the repository to your local machine. No additional installations are required as all dependencies are sourced via CDNs.
-Structure
-index.html: Main HTML file containing the structure of the visualization dashboard.
-js/: JavaScript files for different visualizations:
-main.js: Initialization and data loading logic.
-mapVis.js, calendarVis.js, etc.: Scripts for specific visualizations like maps and calendars.
-helpers.js: Utility functions used across different visualizations.
-css/: Contains CSS files for styling the dashboard.
-Visualizations
-Calendar Visualization (calendarVis.js): Shows daily fatal police shootings. Users can select different years to view data.
-Monthly Victims Line Chart (monthlyVictimsLineChart.js): Illustrates monthly shooting trends for a selected year compared to an average.
-Map Visualization (mapVis.js): Displays shootings geographically. Users can interactively explore data by state and year.
-Blood Drip Bar Chart (bloodDripBarChart.js): Represents state-wise data emphasizing the per-capita impact.
-Features
-Dynamic Data Filtering: Filters allow users to view data by race, gender, and armed status.
-Interactive Elements: Tooltips, clickable legends, and year selectors enhance user engagement.
-Responsive Design: Adjusts to different screen sizes for a seamless viewing experience.
-Usage
-Open index.html in a web browser.
-Select a year from dropdowns to update the visualizations accordingly.
-Use the filter buttons to narrow down the data based on gender, race, and armed status.
-Hover over elements for detailed information in tooltips.
-Data Source
-Data is sourced from a comprehensive police shooting database detailing incidents from 2015 to 2022.
+## Basic Information
+- **Team Name:** H.X.S
+- **Project Title:** Variation in American Police’s use of Force with Respect to Geographic and Demographic Markers
 
-License
-This project is released under the MIT License. See the LICENSE file for details.
+## Team Members
+- **Ming Xia** 
+- **Ryan Henry** 
+- **Amin Samani**
 
-Note: The project is intended for educational purposes and aims to offer insights into the critical issue of police shootings in the U.S.
+## Background and Motivation
 
+### Background
+Police brutality has become a focal point of discussion, particularly in the wake of George Floyd's death in 2020. This project aims to analyze and interpret the prevalence of police brutality in the United States, identifying the demographics most impacted compared to other countries.
+
+### Motivation
+The goal of this project is to present a clear, statistical view of the police brutality epidemic in the United States, contributing factual clarity to a deeply emotional discourse. By providing incontrovertible statistics, we hope to outline the severity of the issue comprehensively.
+
+## Related Work
+While our project is driven by a personal passion for addressing issues of police brutality and does not stem from external projects, we are inspired by impactful data visualizations such as the portrayal of lives lost in the Middle East. The use of a bar graph with an artistic touch—such as “blood” dripping down—greatly emphasizes the emotional weight of the data, a technique we aspire to emulate in our visualizations.
+
+## Project Plan
+
+### Data Collection
+- Gathering data on incidents of police use of force across various states.
+- Collecting demographic data of affected populations.
+
+### Data Analysis
+- Statistical analysis to identify trends and patterns.
+- Comparative analysis to understand the scale of the issue in the U.S. versus other countries.
+
+### Visualization
+- Development of compelling visual representations of the data to convey the emotional and factual narrative effectively.
+
+### Review and Refinement
+- Iterative reviews to refine analyses and visualizations based on feedback.
+
+## Future Goals
+- To expand the dataset to include more granular geographic details.
+- To enhance the interactivity of the visualizations for broader public engagement.
+
+## Contributions
+Contributions are welcome. Please contact one of the team members via email to discuss potential collaboration.
+
+## License
+This project is licensed under [MIT License](LICENSE).
